@@ -48,7 +48,7 @@ Este projeto proporcionou uma experiência prática em:
 ## 📸 Prévia do Projeto  
 
 
- ![Projeto em funcionamento] (https://github.com/user-attachments/assets/b7147f2a-b79d-4624-8535-80b0d0797cd6)
+ ![Projeto em funcionamento](https://github.com/user-attachments/assets/b7147f2a-b79d-4624-8535-80b0d0797cd6)
 
 
 
