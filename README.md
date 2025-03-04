@@ -79,11 +79,6 @@ Este projeto proporcionou uma experiência prática em:
 
 
 
----
-
-## 💡 Como Contribuir  
-
-Contribuições são muito bem-vindas! Caso tenha ideias, sugestões ou encontre problemas, abra uma issue ou envie um pull request.  
 
 ---
 
