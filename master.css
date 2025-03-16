@@ -86,3 +86,24 @@ body {
 #btn6:hover {
     color: #ff4800;
 }
+
+
+@media (max-width: 768px) { /*media query ativa quando a largura da tela é igual ou menor que 768px*/
+    .container { /*afeta o "conteiner" classe dos botões*/
+        grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Define um tamanho mínimo */
+        gap: 15px; /*espaçamento mínimo entre os botões*/
+    }
+}
+
+@media (max-width: 480px) { /*media query ativa quando a tela tem 480px ou menos (celulares pequenos)*/
+    .container {
+        grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Aumenta largura mínima */
+        gap: 10px;
+    }
+
+    .button {
+        height: 130px; /* Aumenta a altura dos botões */
+        font-size: 16px; /* Aumenta um pouco o texto */
+    }
+}
+
