@@ -1,0 +1,38 @@
+<!DOCTYPE html> <html lang="pt-br"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para suportar acentos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a visualização para dispositivos móveis -->
+    <title>Coverage Areas</title> <!-- Define o título da página -->
+
+    <link rel="stylesheet" href="pythonlink.css"> <!-- Importa o CSS personalizado -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> <!-- Importa o CSS da biblioteca Leaflet -->
+</head>
+<body>
+    
+    <h1>PYTHONLINK</h1> <!-- Título principal -->
+    <h2>Coverage Areas Map</h2> <!-- Subtítulo explicando a funcionalidade -->
+
+    <p>Enter a ZIP code to locate on the map (no dashes or dots):</p> <!-- Instrução para o usuário -->
+    
+    <input type="text" id="cep" placeholder="Digite o CEP"> <!-- Campo de entrada para o usuário digitar o CEP -->
+    <button onclick="buscarCEP()">Buscar</button> <!-- Botão que chama a função buscarCEP() -->
+
+    <div id="map"></div> <!-- Área onde o mapa será exibido -->
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script> <!-- Importa a biblioteca Leaflet para manipular mapas -->
+    <script src="pythonlink.js"></script> <!-- Importa o arquivo JavaScript com a lógica do mapa -->
+
+    <div id="notification" class="hidden"></div>
+
+    <h3>Areas where we already have customers on this neutral network</h3>
+    <div class="local">
+        <p>Jardim Carapina (CEP: 29161-490)</p>
+        <p>Jardim Tropical (CEP: 29165-050)</p>
+        <p>Carapina Grande (CEP: 29162-661)</p>
+        <p>Central Carapina (CEP: 29161-536)</p>
+        <p>Boa Vista (CEP: 29161-900)</p>
+        <p>Novo Horizonte (CEP: 29163-317)</p>
+        <p>Cantinho do Céu (CEP: 29162-661)</p>
+    </div>    
+</body>
+</html>

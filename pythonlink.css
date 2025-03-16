@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    #map {
+        height: 300px; /* Reduz a altura do mapa em telas menores */
+    }
+
+    input {
+        width: 90%; /* Expande mais os inputs para ocupar a tela */
+    }
+
+    button {
+        width: 90%; /* Ajusta o botão para melhor toque */
+        padding: 10px;
+    }
+}
+
+/* Estilos padrão (modo claro) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Estilos para o modo escuro */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.local {
+    display: flex; /* Exibe os elementos lado a lado */
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha se necessário */
+    justify-content: center; /* Centraliza os itens na tela */
+    gap: 15px; /* Adiciona espaçamento entre os locais */
+    margin-top: 15px; /* Espaço entre o mapa e os locais */
+    padding: 10px;
+}
+
+/* Estilizando o botão de dark mode */
+#toggle-theme {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+#toggle-theme:hover {
+    background-color: #666;
+}
+
+/* Ajuste para telas menores (tablets) */
+@media (max-width: 768px) {
+    #toggle-theme {
+        padding: 6px 10px; /* Botão menor */
+        font-size: 12px;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+/* Ajuste para telas menores que 600px (celulares pequenos) */
+@media (max-width: 600px) {
+    #toggle-theme {
+        padding: 4px 8px; /* Reduz ainda mais */
+        font-size: 10px;
+        top: 3px;
+        right: 3px;
+    }
+}
+
+
+/*pop-up de notificação*/
+#notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #444;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#notification.show {
+    opacity: 1;
+}
+
+#notification.hidden {
+    display: none;
+}
