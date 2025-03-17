@@ -10,15 +10,64 @@ body {
 }
 
 input {
-    padding: 5px;
+    padding: 8px 12px;
     margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Deixa o campo arredondado */
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+input:focus {
+    border-color: #007bff; /* Altera a cor da borda quando o campo está selecionado */
 }
 
 button {
-    padding: 5px 10px;
+    padding: 8px 12px;
     cursor: pointer;
+    border: none;
+    border-radius: 20px; /* Borda arredondada */
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
 }
 
+button:hover {
+    background-color: #0056b3;
+}
+
+
+h1, h2, h3{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    margin-top: 55px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    font-size: large;
+    padding: 0;
+}
+
+h3{
+    padding: 0;
+}
+
+.local {
+    display: flex; /* Exibe os elementos lado a lado */
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha se necessário */
+    justify-content: center; /* Centraliza os itens na tela */
+    gap: 10px; /* Adiciona espaçamento entre os locais */
+    margin-top: 2px; /* Espaço entre o mapa e os locais */
+    padding: 5px;
+    font-size: small;
+}
 
 /* Responsividade para telas menores */
 @media (max-width: 600px) {
@@ -36,7 +85,54 @@ button {
     }
 }
 
-/* Estilos padrão (modo claro) */
+/* Ajuste para telas menores (tablets) */
+@media (max-width: 768px) {
+    #toggle-theme {
+        padding: 6px 10px; /* Botão menor */
+        font-size: 35px;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+/* Ajuste para telas menores que 600px (celulares pequenos) */
+@media (max-width: 600px) {
+    #toggle-theme {
+        padding: 4px 8px; /* Reduz ainda mais */
+        font-size: 35px;
+        top: 3px;
+        right: 3px;
+    }
+}
+
+/* Pop-up de notificação */
+#notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 0, 0, 0.7); /* Vermelho semi-transparente */
+    color: white;
+    padding: 8px 16px; /* Reduzido */
+    border-radius: 6px; /* Bordas mais arredondadas */
+    font-weight: bold;
+    font-size: 14px; /* Menor */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Exibir notificação */
+#notification.show {
+    opacity: 1;
+}
+
+/* Ocultar notificação */
+#notification.hidden {
+    display: none;
+}
+
+/* Estilos para o modo claro */
 body {
     background-color: white;
     color: black;
@@ -48,76 +144,31 @@ body {
     color: white;
 }
 
-.local {
-    display: flex; /* Exibe os elementos lado a lado */
-    flex-wrap: wrap; /* Permite que os elementos quebrem linha se necessário */
-    justify-content: center; /* Centraliza os itens na tela */
-    gap: 15px; /* Adiciona espaçamento entre os locais */
-    margin-top: 15px; /* Espaço entre o mapa e os locais */
-    padding: 10px;
-}
-
 /* Estilizando o botão de dark mode */
 #toggle-theme {
     position: fixed;
-    top: 10px;
+    top: 2px;
     right: 10px;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
-    background-color: #444;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
-    transition: all 0.3s ease; /* Animação suave */
+    padding: 0; /* Remove o padding */
+    border: none; /* Remove a borda */
+    background: none; /* Remove o fundo */
+    color: white; /* Cor do ícone */
+    font-size: 40px; /* Tamanho do ícone */
+    cursor: pointer; /* Mantém o cursor como pointer */
+    transition: opacity 0.3s ease; /* Transição suave */
+    width: 40px; /* Tamanho fixo para o ícone */
+    height: 40px; /* Tamanho fixo para o ícone */
+    display: flex; /* Usa flexbox para centralizar o ícone */
+    justify-content: center; /* Alinha o ícone no centro horizontal */
+    align-items: center; /* Alinha o ícone no centro vertical */
+    opacity: 0.5; /* Torna o botão levemente transparente */
 }
 
 #toggle-theme:hover {
-    background-color: #666;
+    opacity: 1; /* Aumenta a opacidade ao passar o mouse */
 }
 
-/* Ajuste para telas menores (tablets) */
-@media (max-width: 768px) {
-    #toggle-theme {
-        padding: 6px 10px; /* Botão menor */
-        font-size: 12px;
-        top: 5px;
-        right: 5px;
-    }
-}
-
-/* Ajuste para telas menores que 600px (celulares pequenos) */
-@media (max-width: 600px) {
-    #toggle-theme {
-        padding: 4px 8px; /* Reduz ainda mais */
-        font-size: 10px;
-        top: 3px;
-        right: 3px;
-    }
-}
-
-
-/*pop-up de notificação*/
-#notification {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #444;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-#notification.show {
-    opacity: 1;
-}
-
-#notification.hidden {
-    display: none;
+/* No estado ativo */
+#toggle-theme:active {
+    opacity: 0.7; /* Reduz a opacidade quando clicado */
 }

@@ -20,7 +20,7 @@ function showNotification(message) {
 function buscarCEP() {
     var cep = document.getElementById("cep").value; // Obtém o CEP digitado
     if (cep.length !== 8) { // Valida se o CEP tem 8 dígitos
-        showNotification("Digite um CEP válido com 8 dígitos.");
+        showNotification("Enter a valid ZIP code with 8 digits.");
         return;
     }
 
@@ -29,11 +29,11 @@ function buscarCEP() {
         .then(response => response.json())
         .then(data => {
             if (data.erro) { // Verifica se o CEP é válido
-                showNotification("CEP não encontrado!");
+                showNotification("ZIP code not found!");
                 return;
             }
             var endereco = `${data.logradouro}, ${data.bairro}, ${data.localidade} - ${data.uf}`; // Formata o endereço
-            showNotification("Endereço encontrado: " + endereco);
+            showNotification("Address found: " + endereco);
             
             // Faz a requisição à API Nominatim para obter as coordenadas geográficas
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${data.localidade},${data.uf},Brasil&countrycodes=BR`)
@@ -50,12 +50,12 @@ function buscarCEP() {
                             .bindPopup(endereco) // Adiciona um pop-up com o endereço
                             .openPopup();
                     } else {
-                        showNotification("Localização não encontrada no mapa.");
+                        showNotification("Location not found on the map.");
                     }
                 })
-                .catch(error => console.error("Erro ao buscar localização", error)); // Captura erros na requisição ao Nominatim
+                .catch(error => console.error("Error fetching location", error)); // Captura erros na requisição ao Nominatim
         })
-        .catch(error => console.error("Erro ao buscar CEP", error)); // Captura erros na requisição ao ViaCEP
+        .catch(error => console.error("Error fetching ZIP code", error)); // Captura erros na requisição ao ViaCEP
 }
 // adicionando a funcionalidade do enter ao pesquisar o cep
 document.getElementById("cep").addEventListener("keypress", function (event) {
@@ -69,17 +69,19 @@ document.getElementById("cep").addEventListener("keypress", function (event) {
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.createElement("button"); // Cria o botão
     toggleButton.id = "toggle-theme"; // Define um ID para o botão
-    toggleButton.innerText = "Dark Mode"; // Define o texto inicial
+
+    // Define o ícone de sol como padrão
+    toggleButton.innerHTML = "&#x1F31E;"; // Unicode do ícone do sol
     document.body.prepend(toggleButton); // Adiciona o botão no início do corpo da página
 
     toggleButton.addEventListener("click", function () {
         document.body.classList.toggle("dark-mode"); // Alterna entre os temas
 
-        // Atualiza o texto do botão de acordo com o tema
+        // Atualiza o ícone do botão de acordo com o tema
         if (document.body.classList.contains("dark-mode")) {
-            toggleButton.innerText = "Light Mode"; // Muda para "Light Mode" quando estiver no modo escuro
+            toggleButton.innerHTML = "&#x1F319;"; // Lua (para dark mode)
         } else {
-            toggleButton.innerText = "Dark Mode"; // Muda para "Dark Mode" quando estiver no modo claro
+            toggleButton.innerHTML = "&#x1F31E;"; // Sol (para light mode)
         }
     });
 });
