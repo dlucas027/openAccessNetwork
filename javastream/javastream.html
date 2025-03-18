@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javastream</title>
+    <link rel="stylesheet" href="javastream.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    
+    <h1></h1>
+    <h2>Coverage Areas Map</h2>
+
+    <p>Enter a ZIP code to locate on the map (no dashes or dots):</p>
+    
+    <input type="text" id="cep" placeholder="Enter the ZIP code">
+    <button onclick="buscarCEP()">Search</button>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="javastream.js"></script>
+
+    <div id="notification" class="hidden"></div>
+
+    <h3>Areas where we already have customers on this neutral network</h3>
+    <div class="local">
+        <p>Cariacica (ZIP code: 29160-000)</p>
+        <p>Dom Bosco (ZIP code: 29161-000)</p>
+        <p>Alto Lage (ZIP code: 29162-000)</p>
+        <p>Jd. Carapina (ZIP code: 29163-000)</p>
+        <p>Itaparica (ZIP code: 29164-000)</p>
+        <p>P. dos Recifes (ZIP code: 29167-000)</p>
+        <p>N. Zelândia (ZIP code: 29168-000)</p>
+    </div>    
+</body>
+</html>

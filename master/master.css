@@ -69,19 +69,19 @@ body {
 }
 
 #btn1:hover {
-    color: #ff0000;
+    color: #00ff08;
 }
 #btn2:hover {
-    color: #e1ff00;
+    color: #bf00e1;
 }
 #btn3:hover {
-    color: #00ff08;
+    color: #ff0000;
 }
 #btn4:hover {
     color: #0091ff;
 }
 #btn5:hover {
-    color: #bf00e1;
+    color: #eeff00;
 }
 #btn6:hover {
     color: #ff4800;
@@ -108,48 +108,44 @@ body {
 }
 
 
-/* Estilizando o botão */
-#toggle-theme {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
-    background-color: #444;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-}
 
-#toggle-theme:hover {
-    background-color: #666;
-}
-
-/* sem os estilos para o modo escuro ele não vai funcionar */
-.dark-mode {
-    background-color: #121212; /*fundo*/
-    color: #ffffff; /*cor das letras*/
-}
-
-.dark-mode .button {
-    background-color: #333; /*fundo botão*/
-    border-color: #555;
-}
-
-.dark-mode a {
-    color: #bbb; /*letra btn*/
-}
-
-.dark-mode a:hover {
-    color: #ffcc00; /*subtitulo*/
-}
-
-.dark-mode #toggle-theme {
-    background-color: #888; /*cor do btn em cada modo*/
+/* Estilos BTN dark mode */
+body {
+    background-color: white;
     color: black;
 }
 
-.dark-mode #toggle-theme:hover {
-    background-color: #aaa; /*hover btn dark*/
+/* Estilos para o modo escuro */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Estilizando o botão de dark mode */
+#toggle-theme {
+    position: fixed;
+    top: 2px;
+    right: 10px;
+    padding: 0; /* Remove o padding */
+    border: none; /* Remove a borda */
+    background: none; /* Remove o fundo */
+    color: white; /* Cor do ícone */
+    font-size: 40px; /* Tamanho do ícone */
+    cursor: pointer; /* Mantém o cursor como pointer */
+    transition: opacity 0.3s ease; /* Transição suave */
+    width: 40px; /* Tamanho fixo para o ícone */
+    height: 40px; /* Tamanho fixo para o ícone */
+    display: flex; /* Usa flexbox para centralizar o ícone */
+    justify-content: center; /* Alinha o ícone no centro horizontal */
+    align-items: center; /* Alinha o ícone no centro vertical */
+    opacity: 0.5; /* Torna o botão levemente transparente */
+}
+
+#toggle-theme:hover {
+    opacity: 1; /* Aumenta a opacidade ao passar o mouse */
+}
+
+/* No estado ativo */
+#toggle-theme:active {
+    opacity: 0.7; /* Reduz a opacidade quando clicado */
 }

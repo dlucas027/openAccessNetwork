@@ -47,7 +47,6 @@ h1, h2, h3{
 
 h1{
     margin-top: 55px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 h2{
@@ -132,7 +131,7 @@ h3{
     display: none;
 }
 
-/* Estilos para o modo claro */
+/* Estilos BTN dark mode */
 body {
     background-color: white;
     color: black;

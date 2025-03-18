@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dotnetfiber</title>
+    <link rel="stylesheet" href="dotnetfiber.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    
+    <h1></h1>
+    <h2>Coverage Areas Map</h2>
+
+    <p>Enter a ZIP code to locate on the map (no dashes or dots):</p>
+    
+    <input type="text" id="cep" placeholder="Enter the ZIP code">
+    <button onclick="buscarCEP()">Search</button>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="dotnetfiber.js"></script>
+
+    <div id="notification" class="hidden"></div>
+
+    <h3>Areas where we already have customers on this neutral network</h3>
+    <div class="local">
+        <p>Colina de Laranjeiras (ZIP code: 29165-300)</p>
+        <p>R. Tubarão (ZIP code: 29165-340)</p>
+        <p>Cantinho do Céu (ZIP code: 29165-350)</p>
+        <p>Laranjeiras (ZIP code: 29165-360)</p>
+        <p>Vista do Mestre (ZIP code: 29165-370)</p>
+    </div>      
+    </body>
+    
+</body>
+</html>

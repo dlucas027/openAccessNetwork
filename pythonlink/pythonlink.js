@@ -85,3 +85,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+var h1 = document.querySelector("h1");
+var text = "PythonLink"; // Texto a ser animado
+var index = 0;
+
+function typeText() {
+    if (index < text.length) {
+        h1.innerHTML += text.charAt(index);  // Adiciona um caractere por vez
+        index++;
+        setTimeout(typeText, 100);  // Chama a função novamente após 100ms
+    }
+}
+
+window.onload = typeText;  // Chama a animação quando a página for carregada
