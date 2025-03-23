@@ -3,27 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.h1{
+.h1 {
     width: 100%;
     text-align: center;
-    margin-top: 10px; 
+    margin-top: 10px;
     font-size: 34px;
-    color: #161b22; 
-    margin-bottom: 5px; 
+    color: #161b22;
+    margin-bottom: 5px;
+    line-height: 1.5;  /* Ajuste no line-height para o alinhamento */
 }
 
 a {
+    display: inline-block; /* Faz o link se comportar como um elemento inline */
+    text-align: center;
     font-size: 20px;
-    color: #999; 
+    color: #999;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+    margin-left: 5px; /* Adiciona um pequeno espaçamento entre o título e o link */
 }
 
 a:hover {
-    color: #ff3c00; 
+    color: #ff3c00;
 }
+
 
 body {
     font-family: Arial, sans-serif;
@@ -72,19 +76,19 @@ body {
     color: #00ff08;
 }
 #btn2:hover {
-    color: #bf00e1;
+    color: #ff00bf;
 }
 #btn3:hover {
     color: #ff0000;
 }
 #btn4:hover {
-    color: #0091ff;
+    color: #ff7300;
 }
 #btn5:hover {
-    color: #eeff00;
+    color: #0091ff;
 }
 #btn6:hover {
-    color: #ff4800;
+    color: #eeff00;
 }
 
 
