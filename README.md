@@ -69,11 +69,18 @@ Exemplo de busca efetuada, janela de notificação com JS em caso de sucesso, er
 ![image](https://github.com/user-attachments/assets/056c0f3b-b51f-4fbb-adb2-b58673c0974d)
 
 
+Darkmode ativo, dentro do campo de pesquisa
+![image](https://github.com/user-attachments/assets/5df339ff-216d-41a6-a1a6-230100d5a957)
 
 
 
+Aplicação super responsiva no celular
+![image](https://github.com/user-attachments/assets/7c712276-eb01-4d70-8a42-003a609ca192)
 
+![image](https://github.com/user-attachments/assets/3a432b66-2cf3-4525-99fa-03b679e3f654)
 
+Dark mode ativo no mobile
+![image](https://github.com/user-attachments/assets/60d82c19-b4a6-40a2-8c5f-aad9f50dbf3c)
 
 
 
