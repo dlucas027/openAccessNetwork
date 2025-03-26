@@ -51,7 +51,8 @@ I’m also considering adding a front-end framework to further enrich the user e
 
 
 
-
+Tela principal com o darkmode ativo, mudança de icone ao ativar os modos
+![image](https://github.com/user-attachments/assets/4546870c-9f1e-4715-a15c-17ebcbd8e8a6)
 
 
 
