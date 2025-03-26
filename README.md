@@ -38,23 +38,15 @@ I’m also considering adding a front-end framework to further enrich the user e
 ---
 
 
-![GitHub - Whitemodel](https://github.com/user-attachments/assets/d84d8500-ea8e-4aa0-88aa-609340d599fc)
 
 
 
+## Funcionalidades do Projeto
 
-![GitHub - DarkMode](https://github.com/user-attachments/assets/c9ca646b-dad2-42a0-8b4e-d1f2ec903e17)
+1- Botão para ativação do dark mode
+2 - Interface responsiva com a lista de provedores parceiros
 
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/30cd2014-b3eb-4b3a-a68a-ba0d56a2710e)
 
 
 
