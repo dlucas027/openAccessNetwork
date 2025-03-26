@@ -55,6 +55,13 @@ Tela principal com o darkmode ativo, mudança de icone ao ativar os modos
 ![image](https://github.com/user-attachments/assets/4546870c-9f1e-4715-a15c-17ebcbd8e8a6)
 
 
+1 -Nome do provedor parceiro
+2 - Campo de pesquisa do Zip code da região que voce deseja buscar
+3 - Mapa interativo para melhor localização
+4 - Área com as localidades em que já temos clientes em rede neutra com esse provedor em específico
+5 - Botão darkmode
+![image](https://github.com/user-attachments/assets/93a5fbd8-bcb1-4b77-b492-eef28dd1ee31)
+
 
 
 
