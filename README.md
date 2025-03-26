@@ -1,31 +1,28 @@
-# 🚀 Projeto para Viabilidade em Rede neutra 
+# Open Acess Network
 
-Este é um projeto desenvolvido para identificar e organizar as áreas de atuação dos provedores parceiros em rede neutra, agilizando o atendimento e as operações diárias.  
-
-https://dlucas027.github.io/openAccessNetwork/
-## 🌟 Funcionalidades  
-
-- **Mapa Interativo**: Visualize as localidades atendidas de forma clara e intuitiva.  
-- **Menu Simples**: Navegue facilmente pelos provedores e suas respectivas áreas de cobertura.  
-- **Foco na Produtividade**: Facilita a identificação do provedor ideal para cada região.  
+I worked in a company that had a problem: we had a neutral network but no complete list of partner providers and their areas of operation. With this problem in mind, I developed the first version of this software for personal use and for my office colleagues. Even though, at first, the project didn't have any map API, just a static map with the areas of operation and a list of the providers, it was still a great help and saved us time, making our work in neutral network deployment much smoother.  
 
 ---
 
-## 🎯 Objetivo  
+## Project Evolution
 
-O principal objetivo deste projeto é centralizar as informações sobre os provedores parceiros, tornando o acesso rápido e prático, além de melhorar a eficiência no atendimento.  
-
----
-
-## 🛠️ Tecnologias Utilizadas  
-
-- **HTML**: Para a estruturação da página.  
-- **CSS**: Para a estilização e apresentação visual.  
-- **JavaScript**: Para adicionar interatividade e dinamismo ao mapa.  
+Some of the main differences from the starting point, as mentioned earlier, were the use of an API, specifically the CEP/ZIP Code API, as well as the use of JavaScript to make the user experience smoother and more enjoyable. Another adjustment made was related to the dark mode, a page feature highly requested by users. Additionally, a major step was the implementation for larger and smaller devices, as before there was no responsiveness. Now, however, it's possible to use the tool on smartphones, tablets, and larger screens like televisions.
 
 ---
 
-## 📚 Aprendizados  
+## Results 
+
+Even in the early stages of the project, other departments benefited and were able to use the new tool efficiently. It combined the everyday need to know about neutral network partners and customer visibility with the ease of using the system itself. Now, it was no longer necessary to send multiple messages asking if provider X serviced a certain region, streamlining everyone's work. 
+
+---
+
+## Attention 
+
+As this is an open-source code, all names and addresses provided are purely illustrative, but they can be adapted to your project.
+
+---
+
+## Learning 
 
 Este projeto proporcionou uma experiência prática em:  
 
