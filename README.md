@@ -77,17 +77,23 @@ Darkmode ativo, dentro do campo de pesquisa
 Aplicação super responsiva no celular
 ![image](https://github.com/user-attachments/assets/7c712276-eb01-4d70-8a42-003a609ca192)
 
-![image](https://github.com/user-attachments/assets/3a432b66-2cf3-4525-99fa-03b679e3f654)
+![image](https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991)
+
 
 Dark mode ativo no mobile
-![image](https://github.com/user-attachments/assets/60d82c19-b4a6-40a2-8c5f-aad9f50dbf3c)
+![image](https://github.com/user-attachments/assets/a10cb90b-cd28-4b0e-98d0-65a0d18cc254)
+
+![image](https://github.com/user-attachments/assets/5e0b9014-6a04-400c-beeb-0db1021a7ce3)
 
 
 
 
+Multitelas
 
 
 
+
+![GitHub - Whitemodel](https://github.com/user-attachments/assets/898439cc-5727-484a-bab3-88d1c1136b87)
 
 
 
