@@ -24,22 +24,118 @@ As this is an open-source code, all names and addresses provided are purely illu
 
 ## Learning 
 
-Este projeto proporcionou uma experiência prática em:  
-
-- Organização de informações baseadas em localização.  
-- Desenvolvimento de interfaces simples e eficazes para o usuário.  
-- Aplicação de soluções ágeis para problemas do dia a dia.  
+In this project, I was able to explore and apply important concepts using JavaScript, especially dynamic API consumption by integrating the ZIP Code API to enhance the user experience.
+I also focused on responsiveness, adapting the interface for different screen sizes — from mobile devices to TVs — which helped me improve my responsive design skills.
+Additionally, I paid special attention to UI/UX, aiming for a more intuitive and seamless navigation. This included visual and functional adjustments based on user feedback, such as implementing dark mode and improving the overall usability of the application.
 
 ---
 
-## 📱 Melhorias Futuras  
+## Future Improvements
 
-- Tornar a página responsiva para dispositivos móveis.  
-- Adicionar filtros por região ou provedor.  
-- Implementar uma funcionalidade de busca para facilitar a localização de áreas.  
-- Adicionar integrações com APIs para atualizações automáticas das áreas atendidas.  
+In the future, I plan to integrate the Google Maps API to enhance address lookup functionality and provide more accurate location data.
+I’m also considering adding a front-end framework to further enrich the user experience and streamline interface development.
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 📸 Prévia do Projeto  
 
