@@ -43,66 +43,60 @@ I’m also considering adding a front-end framework to further enrich the user e
 
 ## Funcionalidades do Projeto
 
-1- Botão para ativação do dark mode
-2 - Interface responsiva com a lista de provedores parceiros
-
-![image](https://github.com/user-attachments/assets/30cd2014-b3eb-4b3a-a68a-ba0d56a2710e)
-
+1. Botão para ativação do dark mode  
+2. Interface responsiva com a lista de provedores parceiros
 
 ---
 
-Tela principal com o darkmode ativo, mudança de icone ao ativar os modos
-![image](https://github.com/user-attachments/assets/4546870c-9f1e-4715-a15c-17ebcbd8e8a6)
+### Tela principal com o dark mode ativo  
+Mudança de ícone ao alternar entre os modos:
 
-
----
-
-1 -Nome do provedor parceiro
-2 - Campo de pesquisa do Zip code da região que voce deseja buscar
-3 - Mapa interativo para melhor localização
-4 - Área com as localidades em que já temos clientes em rede neutra com esse provedor em específico
-5 - Botão darkmode
-![image](https://github.com/user-attachments/assets/93a5fbd8-bcb1-4b77-b492-eef28dd1ee31)
-
+![Darkmode principal](https://github.com/user-attachments/assets/4546870c-9f1e-4715-a15c-17ebcbd8e8a6)
 
 ---
 
-Exemplo de busca efetuada, janela de notificação com JS em caso de sucesso, erro ou ZIP code invalido
-![image](https://github.com/user-attachments/assets/056c0f3b-b51f-4fbb-adb2-b58673c0974d)
+### Elementos da Interface
 
+1. Nome do provedor parceiro  
+2. Campo de pesquisa do ZIP code  
+3. Mapa interativo  
+4. Localidades com clientes conectados  
+5. Botão de dark mode
 
----
-
-Darkmode ativo, dentro do campo de pesquisa
-![image](https://github.com/user-attachments/assets/5df339ff-216d-41a6-a1a6-230100d5a957)
-
-
----
-
-Aplicação super responsiva no celular
-![image](https://github.com/user-attachments/assets/7c712276-eb01-4d70-8a42-003a609ca192)
-
-![image](https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991)
+![Elementos da Interface](https://github.com/user-attachments/assets/93a5fbd8-bcb1-4b77-b492-eef28dd1ee31)
 
 ---
 
-Dark mode ativo no mobile
-![image](https://github.com/user-attachments/assets/a10cb90b-cd28-4b0e-98d0-65a0d18cc254)
+### Busca por ZIP code  
+Exemplo de busca com notificações (sucesso, erro ou código inválido):
 
-
-
-
-![image](https://github.com/user-attachments/assets/5e0b9014-6a04-400c-beeb-0db1021a7ce3)
-
+![Busca por ZIP](https://github.com/user-attachments/assets/056c0f3b-b51f-4fbb-adb2-b58673c0974d)
 
 ---
 
+### Dark mode dentro do campo de pesquisa
 
+![Darkmode Campo](https://github.com/user-attachments/assets/5df339ff-216d-41a6-a1a6-230100d5a957)
 
+---
+
+### Aplicação responsiva no celular
+
+![Responsivo mobile 1](https://github.com/user-attachments/assets/7c712276-eb01-4d70-8a42-003a609ca192)  
+![Responsivo mobile 2](https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991)
+
+---
+
+### Dark mode ativo no mobile
+
+![Darkmode mobile 1](https://github.com/user-attachments/assets/a10cb90b-cd28-4b0e-98d0-65a0d18cc254)  
+![Darkmode mobile 2](https://github.com/user-attachments/assets/5e0b9014-6a04-400c-beeb-0db1021a7ce3)
+
+---
 
 ### Multitelas
-![GitHub - Whitemodel](https://github.com/user-attachments/assets/898439cc-5727-484a-bab3-88d1c1136b87)
 
+![Multitelas](https://github.com/user-attachments/assets/898439cc-5727-484a-bab3-88d1c1136b87)
 
 ---
 
