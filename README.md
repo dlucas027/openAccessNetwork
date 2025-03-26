@@ -38,15 +38,12 @@ I’m also considering adding a front-end framework to further enrich the user e
 ---
 
 
+![GitHub - Whitemodel](https://github.com/user-attachments/assets/d84d8500-ea8e-4aa0-88aa-609340d599fc)
 
 
 
 
-
-
-
-
-
+![GitHub - DarkMode](https://github.com/user-attachments/assets/c9ca646b-dad2-42a0-8b4e-d1f2ec903e17)
 
 
 
