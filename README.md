@@ -81,7 +81,7 @@ Exemplo de busca com notificações (sucesso, erro ou código inválido):
 ---
 
 📱 Aplicação responsiva no celular
-<div align="center"> <img src="https://github.com/user-attachments/assets/7c712276-eb01-4d70-8a42-003a609ca192" width="300"/> <img src="https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991" width="300"/> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/97de0bcc-d555-4fef-ba7c-3772b9c00239" width="300"/> <img src="https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991" width="300"/> </div>
 
 
 🌙 Dark mode ativo no mobile
