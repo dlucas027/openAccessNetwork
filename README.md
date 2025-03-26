@@ -39,57 +39,61 @@ I’m also considering adding a front-end framework to further enrich the user e
 
 
 
+## Project Features
 
+1. Button to activate dark mode  
+2. Responsive interface with the list of partner providers
 
-## Funcionalidades do Projeto
-
-1. Botão para ativação do dark mode  
-2. Interface responsiva com a lista de provedores parceiros
-![image](https://github.com/user-attachments/assets/30cd2014-b3eb-4b3a-a68a-ba0d56a2710e)
----
-
-### Tela principal com o dark mode ativo  
-Mudança de ícone ao alternar entre os modos:
-
-![Darkmode principal](https://github.com/user-attachments/assets/4546870c-9f1e-4715-a15c-17ebcbd8e8a6)
+![Menu](https://github.com/user-attachments/assets/30cd2014-b3eb-4b3a-a68a-ba0d56a2710e)
 
 ---
 
-### Elementos da Interface
+### Main screen with dark mode enabled  
+Icon changes when switching between modes:
 
-1. Nome do provedor parceiro  
-2. Campo de pesquisa do ZIP code  
-3. Mapa interativo  
-4. Localidades com clientes conectados  
-5. Botão de dark mode
-
-![Elementos da Interface](https://github.com/user-attachments/assets/93a5fbd8-bcb1-4b77-b492-eef28dd1ee31)
+![Darkmode](https://github.com/user-attachments/assets/4546870c-9f1e-4715-a15c-17ebcbd8e8a6)
 
 ---
 
-### Busca por ZIP code  
-Exemplo de busca com notificações (sucesso, erro ou código inválido):
+### Interface Elements
 
-![Busca por ZIP](https://github.com/user-attachments/assets/056c0f3b-b51f-4fbb-adb2-b58673c0974d)
+1. Partner provider name  
+2. ZIP code search field  
+3. Interactive map  
+4. Locations with connected clients  
+5. Dark mode button
+
+![Elements](https://github.com/user-attachments/assets/93a5fbd8-bcb1-4b77-b492-eef28dd1ee31)
 
 ---
 
-### Dark mode dentro do campo de pesquisa
+### ZIP Code Search  
+Search example with notifications (success, error or invalid code):
 
-![Darkmode Campo](https://github.com/user-attachments/assets/5df339ff-216d-41a6-a1a6-230100d5a957)
+![Search ZIP](https://github.com/user-attachments/assets/056c0f3b-b51f-4fbb-adb2-b58673c0974d)
 
 ---
 
-📱 Aplicação responsiva no celular
-<div align="center"> <img src="https://github.com/user-attachments/assets/97de0bcc-d555-4fef-ba7c-3772b9c00239" width="300"/> <img src="https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991" width="300"/> </div>
+### Dark mode inside the search field
 
+![Darkmode-BTN](https://github.com/user-attachments/assets/5df339ff-216d-41a6-a1a6-230100d5a957)
 
-🌙 Dark mode ativo no mobile
-<div align="center"> <img src="https://github.com/user-attachments/assets/a10cb90b-cd28-4b0e-98d0-65a0d18cc254" width="300"/> <img src="https://github.com/user-attachments/assets/5e0b9014-6a04-400c-beeb-0db1021a7ce3" width="300"/> </div>
+---
 
-### Multitelas
+### Responsive application on mobile
 
-![Multitelas](https://github.com/user-attachments/assets/898439cc-5727-484a-bab3-88d1c1136b87)
+<div align="center"> 
+  <img src="https://github.com/user-attachments/assets/97de0bcc-d555-4fef-ba7c-3772b9c00239" width="300"/> 
+  <img src="https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991" width="300"/> 
+</div>
+
+---
+
+🌙 Dark mode enabled on mobile  
+<div align="center"> 
+  <img src="https://github.com/user-attachments/assets/a10cb90b-cd28-4b0e-98d0-65a0d18cc254" width="300"/> 
+  <img src="https://github.com/user-attachments/assets/5e0b9014-6a04-400c-beeb-0db1021a7ce3" width="300"/> 
+</div>
 
 ---
 
