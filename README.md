@@ -80,19 +80,12 @@ Exemplo de busca com notificações (sucesso, erro ou código inválido):
 
 ---
 
-### Aplicação responsiva no celular
+📱 Aplicação responsiva no celular
+<div align="center"> <img src="https://github.com/user-attachments/assets/7c712276-eb01-4d70-8a42-003a609ca192" width="300"/> <img src="https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991" width="300"/> </div>
 
-![Responsivo mobile 1](https://github.com/user-attachments/assets/7c712276-eb01-4d70-8a42-003a609ca192)  
-![Responsivo mobile 2](https://github.com/user-attachments/assets/d2702d32-d20d-43e3-afb3-f87b7c171991)
 
----
-
-### Dark mode ativo no mobile
-
-![Darkmode mobile 1](https://github.com/user-attachments/assets/a10cb90b-cd28-4b0e-98d0-65a0d18cc254)  
-![Darkmode mobile 2](https://github.com/user-attachments/assets/5e0b9014-6a04-400c-beeb-0db1021a7ce3)
-
----
+🌙 Dark mode ativo no mobile
+<div align="center"> <img src="https://github.com/user-attachments/assets/a10cb90b-cd28-4b0e-98d0-65a0d18cc254" width="300"/> <img src="https://github.com/user-attachments/assets/5e0b9014-6a04-400c-beeb-0db1021a7ce3" width="300"/> </div>
 
 ### Multitelas
 
