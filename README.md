@@ -65,7 +65,8 @@ Tela principal com o darkmode ativo, mudança de icone ao ativar os modos
 
 
 
-
+Exemplo de busca efetuada, janela de notificação com JS em caso de sucesso, erro ou ZIP code invalido
+![image](https://github.com/user-attachments/assets/056c0f3b-b51f-4fbb-adb2-b58673c0974d)
 
 
 
