@@ -45,7 +45,7 @@ I’m also considering adding a front-end framework to further enrich the user e
 
 1. Botão para ativação do dark mode  
 2. Interface responsiva com a lista de provedores parceiros
-
+![image](https://github.com/user-attachments/assets/30cd2014-b3eb-4b3a-a68a-ba0d56a2710e)
 ---
 
 ### Tela principal com o dark mode ativo  
