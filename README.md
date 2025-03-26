@@ -2,9 +2,7 @@
 
 Este é um projeto desenvolvido para identificar e organizar as áreas de atuação dos provedores parceiros em rede neutra, agilizando o atendimento e as operações diárias.  
 
-Link da página ativa: https://dlucas027.github.io/rede-neutra-inmap/
----
-
+https://dlucas027.github.io/openAccessNetwork/
 ## 🌟 Funcionalidades  
 
 - **Mapa Interativo**: Visualize as localidades atendidas de forma clara e intuitiva.  
