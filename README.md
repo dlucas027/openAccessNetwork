@@ -101,6 +101,6 @@ Search example with notifications (success, error or invalid code):
 
 ---
 
-[openAcessNtetwork](https://dlucas027.github.io/openAccessNetwork/)
+[🌐openAcessNetwork](https://dlucas027.github.io/openAccessNetwork/)
 ## Matheus de Lucas Arouca [LinkedIn](https://www.linkedin.com/in/delucas027)
 
